@@ -20,40 +20,44 @@ class Birds (Farm):
     minspeed = 1
 
 
-class cow (Animals):
+class Cow (Animals):
     milk = true
     minweight = 30
     maxwigth = 500
 
 
-class sheep (Animals):
+class Sheep (Animals):
     wool = true
     minweight = 20
     maxwigth = 80
 
 
-class goat (Animals):
+class Goat (Animals):
     cheese = true
     minweight = 10
     maxwigth = 30
 
 
-class pig (Animals):
+class Pig (Animals):
     lard = true
     minweight = 30
     maxwigth = 200
 
 
-class duck (Birds):
+class Duck (Birds):
     maxspeed = 20
     minspeed = 1
 
 
-class chicken (Birds):
+class Chicken (Birds):
     maxspeed = 3
     minspeed = 1
 
 
-class goose (Birds):
+class Goose (Birds):
     maxspeed = 30
     minspeed = 1
+
+cow_1 = Cow()
+cow_2 = Cow()
+chicken_1 = Chicken()
