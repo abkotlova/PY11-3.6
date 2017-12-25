@@ -25,6 +25,10 @@ class Cow (Animals):
     minweight = 30
     maxwigth = 500
 
+    def __init__(self, minweight, maxwight):
+        self.minweight = minweight
+        self.maxwight = maxwight
+
 
 class Sheep (Animals):
     wool = true
@@ -53,11 +57,15 @@ class Chicken (Birds):
     maxspeed = 3
     minspeed = 1
 
+    def __init__(self, maxspeed, minspeed):
+        self.maxspeed = maxspeed
+        self.minspeed = minspeed
+
 
 class Goose (Birds):
     maxspeed = 30
     minspeed = 1
 
-cow_1 = Cow()
-cow_2 = Cow()
-chicken_1 = Chicken()
+cow_1 = Cow(35, 300)
+cow_2 = Cow(45, 400)
+chicken_1 = Chicken(2, 1)
